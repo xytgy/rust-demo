@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=scripts
+cargo:warning=Compiling new_demo...
+cargo:warning=Moved new_demo.pdb to debug folder

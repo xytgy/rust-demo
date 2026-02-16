@@ -1,0 +1,11 @@
+[package]
+name = "rust-demo-builder"
+version = "0.1.0"
+edition = "2021"
+
+# 这个项目本身不需要生成任何二进制文件
+# 我们利用 build.rs 来执行构建任务
+build = "build.rs"
+
+[dependencies]
+# 这里可以添加依赖，但为了简化演示，我们使用标准库
